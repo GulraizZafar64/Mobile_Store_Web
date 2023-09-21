@@ -13,7 +13,7 @@ const Home = () => {
   }, [])
   
   const getPhones=()=>{
-    fetch(`http://localhost:4000/api/v1/getProduct`, {
+    fetch(`https://mobile-store-km17iiqc8-gulraizzafar64.vercel.app/api/v1/getProduct`, {
       method: 'GET',
     }).then(res => res.json()
       .then(data => {
