@@ -5,6 +5,7 @@
     padding-bottom: 20px;
     padding-top: 10px;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .myTextArea{
     width: 100%;
@@ -36,7 +37,5 @@
  .imageshipcont{
     display: none;
  }
- .ShippingCard{
-    margin-bottom: 20px;
- }
+
      }

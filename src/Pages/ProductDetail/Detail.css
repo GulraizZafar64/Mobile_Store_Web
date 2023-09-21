@@ -78,6 +78,9 @@ font-size: 20px;
 .byNowbutton{
     
 }
+.givingmarginToDetail{
+    margin-bottom: 200px;
+}
 .byNowbutton>button{
     width: 150px;
     height: 49px;
@@ -94,4 +97,7 @@ font-size: 20px;
     margin-top: 200px;
     margin-bottom: 20px;
  }
+ .givingmarginToDetail{
+    margin-bottom: 0px;
+}
   }

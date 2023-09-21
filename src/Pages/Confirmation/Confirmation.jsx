@@ -46,10 +46,9 @@ const Confirmation = () => {
             },
             orderItems:{
                 quantity:state.quantity,
-                product:state.id,
                 totalPrice:state.totalAmount,
-            },
-         
+              },
+              product:state.id,
         };
         fetch(`https://mobile-store-km17iiqc8-gulraizzafar64.vercel.app/api/v1/order/new`, {
           method: "POST",

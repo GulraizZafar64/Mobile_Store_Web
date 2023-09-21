@@ -52,7 +52,7 @@ const Details = () => {
   return (
     <>
     <Navbar/>
-		<div class="container">
+		<div class="container givingmarginToDetail">
         <div className='headingContainerSearch mt-3'>
         <h2 className='headingSearch'>Product Details</h2>
         
