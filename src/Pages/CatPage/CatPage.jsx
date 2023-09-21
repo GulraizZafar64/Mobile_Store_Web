@@ -14,7 +14,7 @@ const CatPage = () => {
   
   const getPhones=()=>{
     setLoading(true)
-    fetch(`https://mobile-store-km17iiqc8-gulraizzafar64.vercel.app/api/v1/getProduct`, {
+    fetch(`https://mobile-store-api.vercel.app/api/v1/getProduct`, {
       method: 'GET',
     }).then(res => res.json()
       .then(data => {

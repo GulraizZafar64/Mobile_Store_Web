@@ -51,7 +51,7 @@ const Confirmation = () => {
               },
               product:state.id,
         };
-        fetch(`https://mobile-store-km17iiqc8-gulraizzafar64.vercel.app/api/v1/order/new`, {
+        fetch(`https://mobile-store-api.vercel.app/api/v1/order/new`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
