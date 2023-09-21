@@ -46,6 +46,7 @@ const Confirmation = () => {
             },
             orderItems:{
                 quantity:state.quantity,
+                color:state.selectedColor,
                 totalPrice:state.totalAmount,
               },
               product:state.id,
