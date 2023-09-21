@@ -1,0 +1,42 @@
+.ShippingCard{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+.myTextArea{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.myTextArea:focus{
+   outline: none;
+}
+.placeOrderButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.placeOrderButton>button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    transition: .5s;
+}
+.backArrow{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+@media (max-width:  500px) {
+ .imageshipcont{
+    display: none;
+ }
+ .ShippingCard{
+    margin-bottom: 20px;
+ }
+     }

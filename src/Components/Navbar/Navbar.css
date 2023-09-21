@@ -1,0 +1,144 @@
+.main-header {
+    width: 100%;
+    padding: 10px 20px;
+    z-index: 99;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid; 
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.myHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.companyName{
+    display: flex;
+    column-gap: 50px;
+    padding-top: 2px;
+}
+.addToCartIcon{
+    padding-top: 5px;
+}
+.myCartIcon{
+    font-size: 30px;
+}
+.companyName>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.main-header.md {
+    padding: 0 40px;
+}
+
+.main-header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header .header-content.md {
+    height: 80px;
+}
+
+.main-header .left {
+    list-style-type: none;
+    display: none;
+    gap: 25px;
+}
+
+.main-header.md .left {
+    display: flex;
+}
+
+.main-header .left li {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.main-header .left li:hover {
+    opacity: 0.6;
+}
+
+.main-header .center {
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-header.md .center {
+    font-size: 34px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-header .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-header.md .right {
+    gap: 25px;
+}
+
+.main-header .right svg {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-header.md .right svg {
+    font-size: 24px;
+}
+
+.main-header .right svg:hover {
+    opacity: 0.6;
+}
+
+.main-header .right .cart-icon {
+    position: relative;
+}
+
+.main-header .right .cart-icon span {
+    min-width: 20px;
+    text-align: center;
+    background: #8e2de2;
+    padding: 2.5px;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 10px;
+}
+
+.main-header.sticky-header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    transform: translateY(-60px);
+    animation: StickyHeader 0.3s ease forwards;
+}
+.mobileNumber{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 5px;
+}
+@keyframes StickyHeader {
+    0% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

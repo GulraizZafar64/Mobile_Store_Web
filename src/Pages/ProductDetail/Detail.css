@@ -1,0 +1,97 @@
+.productDetailSlider{
+    height: 400px !important;
+    width: 100% !important;
+}
+.productDetailSlider>div{
+    height: 400px !important;
+    width: 100% !important;
+    display: inline-block;
+}
+
+.iamgeProduct{
+    height: 400px !important;
+    width: 100% !important;
+    border-radius: 20px;
+}
+.productDetailSlider>ul>li{
+height: 100px;
+width: 100px;
+display: inline-block;
+top: 80px;
+}
+.productDetailSlider>ul>li>a>img{
+height: 100%;
+width: 100%;
+border-radius: 10px;
+
+}
+.contentDetails>p{
+    color: rgb(175, 174, 174);
+}
+.colorBalls{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.colorBalls2{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.colorBalls3{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.qunatityContainer{
+    border: 1px solid rgb(163, 161, 161);
+    width: 150px;
+    justify-content: space-evenly;
+    height: 50px;
+
+}
+.qunatityContainer>p{
+  padding-top: 12px;
+  font-weight: 500;
+}
+.qunatityContainer>p:nth-child(2){
+font-size: 20px;
+}
+
+.qunatityContainer>button{
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+  padding: 0;
+}
+.byNowbutton{
+    
+}
+.byNowbutton>button{
+    width: 150px;
+    height: 49px;
+    margin-left: 20px;
+    background-color: black;
+ color: white;
+    border: 1px solid rgb(163, 161, 161);
+    font-size: 17px;
+    transition: .5s;
+}
+
+@media (max-width:  500px) {
+ .contentDetails{
+    margin-top: 200px;
+    margin-bottom: 20px;
+ }
+  }

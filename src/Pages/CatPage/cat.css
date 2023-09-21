@@ -1,0 +1,11 @@
+.topbarOfcat{
+   height: 200px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.topbarOfcat>h1{
+    color: white;
+}
